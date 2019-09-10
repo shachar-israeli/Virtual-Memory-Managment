@@ -1,11 +1,3 @@
-israelish
-203713094
-Shachar Israeli
-
-########################################################
-
-
-## Ex5 ##
 
 
 This program simulates access to the physical memory while using paging mechanism
@@ -27,8 +19,6 @@ location using "cd" command (confirm it using ls command) and type
 there are 2 structs - sim_database, page_descriptor, array of free frame in physical address and frame counter
 
 
-
-
 #### how to install ####
 
 open linux terminal, navigate to the folder containing ex5
@@ -41,7 +31,6 @@ and your program will automaticily be compiled
 make sure there is exec file that contain the "data" that you want to save
 
 ------------------program functions -------------------------------
-
 
 
 * incase of memory allocation failure, program will exit with
@@ -85,7 +74,6 @@ char return_char(struct sim_database *mem_sim, int offset, int page);
 void print_memory(struct sim_database* mem_sim);
 void print_swap(struct sim_database* mem_sim);
 void print_page_table(struct sim_database* mem_sim);
-
 
 
 int main() command:
